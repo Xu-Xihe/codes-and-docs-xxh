@@ -1,0 +1,6 @@
+digraph xxh{
+    rankdir = LR
+    label = "b、c为环"
+    a -> b -> c -> d;
+    c -> b;
+}

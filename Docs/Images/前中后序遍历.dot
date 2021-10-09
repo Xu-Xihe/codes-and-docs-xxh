@@ -1,0 +1,18 @@
+graph xxh{
+    nn[label = "null"]
+    nnn[label = "null"]
+    a--b;
+    a--c;
+    b--d;
+    b--e;
+    c--f;
+    c--g;
+    d--h;
+    d--i;
+    h--j;
+    g--k;
+    e--l;
+    g--null;
+    e--nn;
+    h--nnn;
+}

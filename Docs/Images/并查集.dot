@@ -1,0 +1,11 @@
+graph xxh{
+    rankdir = TB;
+    zang[label = "zhangsan"];
+    li[label = "lisi"];
+    wang[label = "wangermazi"];
+    ma[label = "madashaozi"];
+    xiao[label="wangxiaoer"]
+    zang--li--wang;
+    zang--ma;
+    li--xiao;
+}

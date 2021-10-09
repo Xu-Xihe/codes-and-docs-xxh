@@ -1,0 +1,4 @@
+graph xxh{
+    a --b;
+    b --a;
+}

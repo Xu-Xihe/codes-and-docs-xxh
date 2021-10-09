@@ -1,0 +1,9 @@
+digraph xxh{
+    rankdir = LR;
+    node [shape = mrecord];
+    edge [label = "1024"]
+    bit[label = "位(bit)"];
+    B[label = "字节(B)"]
+    bit -> B[label = "8"];
+    B -> KB -> MB -> GB -> TB -> PB;
+}

@@ -1,0 +1,16 @@
+graph xxh{
+    a--b;
+    a--c;
+    b--d;
+    b--e;
+    c--f;
+    c--g;
+    d--h;
+    d--i;
+    g--k;
+    e--l;
+    e--m;
+    f--n;
+    f--o;
+    g--p;
+}

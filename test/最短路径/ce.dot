@@ -1,0 +1,16 @@
+digraph xxh{
+    label = "dijisitela";
+    node [color = blue];
+    d[label="doller"];
+    f[label="flench"];
+    b[label="british"];
+    d -> b[label = "0.5"];
+    b -> f[label = "10"];
+    f -> d[label = "0.21"];
+    subgraph form{
+        node [color = red ,shape =record];
+        a[label = " *|<1>1|<2>2|<3>3"];
+        a:3->d;
+        a:2:b
+    }   
+}

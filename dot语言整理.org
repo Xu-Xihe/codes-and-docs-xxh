@@ -1,0 +1,89 @@
+* 图
+** 声明 
+*** 无向图:
+#+BEGIN_SRC dot
+graph name{
+//something
+}
+#+END_SRC
+*** 有向图:
+#+BEGIN_SRC dot
+digraph name{
+//something 
+}
+#+END_SRC
+** 属性
+*** bgcolor
+设置图的背景颜色
+bgcolor = red / blue / yellowgreen ………… 或使用颜色十六进制编码
+*** label
+设置图的标题（描述），继承到子图
+label = "//name"
+*** rankdir
+设置图的方向
+rankdir = LR（从左到右） / RL（从右到左） / TB（从上到下） / BT（从下到上）
+*** rotate
+设置图的旋转
+ratate = num （逆时针旋转num度）
+*** ratio
+设置图的长宽比
+ratio = double / fill / compress / auto
+* 结点
+** 声明
+#+begin_src dot
+node_name;
+#+end_src
+** 属性
+*** shape
+设置结点形状
+shape = mrecord(圆角矩形) / record(矩形) / circle(圆形) / box(矩形,用于表格) / egg(蛋形) / doublecircle(双圆形) / plaintext(纯文本) / ellipse(椭圆,默认)
+*** label 
+设置结点显示内容
+label = "name"
+*** style 
+设置结点样式
+style = filled(填充) / dotted(点状边框) / solid(普通边框) / dasheed(虚线边框) / bold(边框加粗) / invis(隐形)
+*** color
+设置边框颜色
+color = red / blue / yellowgreen ………… 或使用颜色十六进制编码
+*** fillcolor
+设置填充颜色(仅在style = filled时有效)
+fillcolor = red / blue / yellowgreen ………… 或使用颜色十六进制编码
+*** width 
+设置结点宽度
+width = num
+*** height
+设置结点高度
+height = num
+*** peripheries
+设置结点边框个数
+peripheries = num
+*** fontcolor
+设置结点内容颜色
+fontcolor = red / blue / yellowgreen ………… 或使用颜色十六进制编码
+** 全局属性
+node[//属性];
+* 边
+** 声明
+#+begin_src dot
+//声明从a到b
+//有向图
+a -> b;
+//无向图
+a -- b;
+#+end_src
+** 属性
+*** style
+设置边的形状
+style = solid(实线) / dashed(虚线) / dooted(点线) / bold(加粗) / invis(隐形)
+*** label
+设置边的标签
+label = "name"
+*** color
+设置边颜色
+color = red / blue / yellowgreen ………… 或使用颜色十六进制编码
+*** arrowhead
+设置边的箭头样式(只针对有向图)
+arrowhead = none / empty / odiamond
+** 全局属性
+edge[//属性];

@@ -1,0 +1,4 @@
+digraph g{
+    rankdir = LR;
+    L -> H -> Y;
+}

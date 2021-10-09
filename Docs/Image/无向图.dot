@@ -1,0 +1,9 @@
+graph G {
+    /* Relationships */
+    a -- b[label = 3];
+    a -- c[label = 5];
+    a-- d[label = 2];
+    b-- d[label = 7];
+    b--c[label=4];
+    c--e[label=5];
+}

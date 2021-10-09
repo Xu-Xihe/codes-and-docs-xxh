@@ -1,0 +1,7 @@
+graph xxh{
+    rankdir = LR
+    a--b;
+    b--c;
+    c--d;
+    d--a;
+}

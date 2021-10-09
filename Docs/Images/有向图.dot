@@ -1,0 +1,8 @@
+digraph xxh{
+    rankdir = LR;
+    a->b;
+    b->c;
+    c->a;
+    c->d;
+    d->b;
+}

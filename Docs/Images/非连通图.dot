@@ -1,0 +1,10 @@
+graph xxh{
+    label ="非连通图"
+    rankdir = LR
+    a--c;
+    a--b;
+    b--d;
+    e--f;
+    f--g;
+    e--g;
+}
